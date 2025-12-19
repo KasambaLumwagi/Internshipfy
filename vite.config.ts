@@ -11,6 +11,16 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/remotive/, ''),
       },
+      '/api/adzuna': {
+        target: 'https://api.adzuna.com/v1/api',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/adzuna/, ''),
+      },
+      '/api/jooble': {
+        target: 'https://jooble.org/api',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/jooble/, ''),
+      },
     },
   },
 })

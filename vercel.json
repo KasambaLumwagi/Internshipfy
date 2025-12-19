@@ -1,0 +1,20 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/remotive/(.*)",
+            "destination": "https://remotive.com/api/$1"
+        },
+        {
+            "source": "/api/adzuna/(.*)",
+            "destination": "https://api.adzuna.com/v1/api/$1"
+        },
+        {
+            "source": "/api/jooble/(.*)",
+            "destination": "https://jooble.org/api/$1"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
