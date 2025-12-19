@@ -1,4 +1,4 @@
-import { Briefcase, Search, Globe, Menu, X } from 'lucide-react';
+import { Briefcase, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -25,7 +25,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        <button 
+        <button
           className="md:hidden p-2 hover:bg-glass rounded-lg transition-colors"
           onClick={() => setIsOpen(!isOpen)}
         >
